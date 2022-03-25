@@ -39,9 +39,10 @@ function initUserInfo() {
                         <span id="user-img"> \
                             <img src="img/user.jpg" /> \
                         </span> \
-                        <span id="name">已登录用户<span/> \
+                        <span id="name">'+username+ '<span/> \
                      <div/>';
     document.getElementById('top-right').innerHTML = content;
+    document.getElementById('name').textContent=username;
 }
 
 // ============================================================ 你不需要去关注的代码
